@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 9vh;
+  background: #333333;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logos {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+}
+.header .logos a {
+  font-size: 17px;
+  text-align: center;
+  /* padding: 12px; */
+
+  color: #8b8c93;
+  text-decoration: none;
+}
+
+.header .logos a img {
+  width: 120px;
+  padding: 20px;
+}
+.header .logos .webuni {
+  color: gray;
+  font-size: 24px;
+  /* padding: 3px; */
+  width: 20%;
+  line-height: 63px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #222222;
+  /* letter-spacing: 1px; */
+}
+
+.header .logos .webuni a i {
+  font-size: 10px;
+  position: relative;
+  bottom: 3px;
+}
+.header .icons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .icons a {
+  font-size: 24px;
+  width: 10%;
+  color: #9b9b9b;
+  border: 0.2px solid #b0b0b0;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+  text-align: center;
+  line-height: 63px;
+}
+
+.header .icons a.active {
+  background-color: #7ac64d;
+  color: white;
+}
+
+.header .icons a:hover {
+  background-color: #242323;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  /* background-color: aqua; */
+  margin: 0px auto;
+}
+
+.hero-section {
+  height: 1000px;
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.hero-section .container .nav {
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section .container .nav img {
+  width: 120px;
+  height: 50px;
+}
+
+.hero-section .container .nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.hero-section .container .nav ul a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.hero-section .container .nav ul a:hover {
+  color: #d82a4e;
+}
+
+.hero-section .container .nav div {
+  width: 100px;
+  /* height: 100px; */
+  padding: 20px 30px;
+  width: 15%;
+  text-align: center;
+  background-color: #d82a4e;
+}
+
+.hero-section .container .nav div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hero-section .container .content {
+  text-align: center;
+  padding-top: 200px;
+  margin-bottom: 105px;
+}
+
+.hero-section .container .content h2 {
+  color: white;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-section .container .content p {
+  color: white;
+  line-height: 24px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.hero-section .container .signIn {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-section .container .signIn input {
+  height: 53px;
+  width: 40.6%;
+  padding: 0 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.hero-section .container .signIn div {
+  text-align: center;
+  padding: 0px 30px;
+  width: 20%;
+  background-color: #d82a4e;
+  line-height: 53px;
+  font-weight: bold;
+}
+
+.hero-section .container .signIn div a {
+  text-decoration: none;
+  color: white;
+}
